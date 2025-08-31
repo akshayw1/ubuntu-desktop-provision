@@ -36,6 +36,55 @@ class UbuntuBootstrapLocalizationsTl extends UbuntuBootstrapLocalizations {
   String get autoinstallAutomatedDescription => 'For advanced users who have an autoinstall.yaml for consistent and repeatable system setups.';
 
   @override
+  String get autoinstallPageTitle => 'Welcome to installation method page';
+
+  @override
+  String get autoinstallPageInstructions => 'Choose your way of installation';
+
+  @override
+  String get autoinstallPageAccessibilityLabel => 'Installation method selection page';
+
+  @override
+  String autoinstallInteractiveOptionStatus(String status, String description) {
+    return 'Interactive installation option $status. $description';
+  }
+
+  @override
+  String get autoinstallOptionSelected => 'selected';
+
+  @override
+  String get autoinstallOptionNotSelected => 'not selected';
+
+  @override
+  String get autoinstallInteractiveSelected => 'Interactive installation selected';
+
+  @override
+  String get autoinstallAutomatedSelected => 'Automated installation selected. Please provide autoinstall configuration URL';
+
+  @override
+  String get autoinstallConfigSectionLabel => 'Autoinstall configuration section';
+
+  @override
+  String get autoinstallUrlFieldLabel => 'Autoinstall configuration URL field. Enter the URL or file path';
+
+  @override
+  String get autoinstallUrlLabel => 'Autoinstall configuration URL';
+
+  @override
+  String get autoinstallUrlHint => 'Enter URL or file path';
+
+  @override
+  String autoinstallValidateButtonLabel(String status) {
+    return 'Validate button $status';
+  }
+
+  @override
+  String get autoinstallValidating => 'validating';
+
+  @override
+  String get autoinstallValidatingMessage => 'Validating autoinstall configuration';
+
+  @override
   String get changeButtonText => 'Change';
 
   @override
@@ -523,6 +572,38 @@ class UbuntuBootstrapLocalizationsTl extends UbuntuBootstrapLocalizations {
   String get confirmHeader => 'Review your choices';
 
   @override
+  String get confirmPageAccessibilityLabel => 'Review your choices page';
+
+  @override
+  String confirmPageWelcome(String header) {
+    return 'Review your choices. $header. Please review all your installation settings before proceeding.';
+  }
+
+  @override
+  String get confirmStartingInstallation => 'Starting installation. Please wait.';
+
+  @override
+  String get confirmReviewChoices => 'Review your choices';
+
+  @override
+  String get confirmSummaryLabel => 'Installation summary';
+
+  @override
+  String get confirmAutoinstallConfig => 'Autoinstall configuration';
+
+  @override
+  String get confirmPartitionChangesLabel => 'Partition changes list';
+
+  @override
+  String get confirmInstallButtonLabel => 'Install now button. This will start the installation';
+
+  @override
+  String get confirmProprietarySoftwareNone => 'None';
+
+  @override
+  String get backButtonLabel => 'Back button';
+
+  @override
   String get confirmDiskEncryptionLVM => 'LUKS (LVM)';
 
   @override
@@ -968,4 +1049,55 @@ class UbuntuBootstrapLocalizationsTl extends UbuntuBootstrapLocalizations {
 
   @override
   String get validate => 'Validate';
+
+  @override
+  String get sourcePageAccessibilityLabel => 'Software selection page';
+
+  @override
+  String sourcePageWelcome(String description) {
+    return 'What apps would you like to install to start with? $description';
+  }
+
+  @override
+  String get sourceBatteryWarning => 'Warning: You are running on battery power. Connecting to a power source is recommended';
+
+  @override
+  String get sourceInstallationTypeMinimal => 'minimal';
+
+  @override
+  String get sourceInstallationTypeFull => 'full';
+
+  @override
+  String sourceInstallationProceedingWith(String type) {
+    return 'Proceeding with $type installation';
+  }
+
+  @override
+  String get sourceOptionsLabel => 'Installation options. Use arrow keys to navigate between options';
+
+  @override
+  String sourceOptionDetails(String title, String subtitle, String status, int current, int total) {
+    return '$title. $subtitle. $status. Option $current of $total';
+  }
+
+  @override
+  String get sourceOptionCurrentlySelected => 'Currently selected';
+
+  @override
+  String get sourceOptionNotSelected => 'Not selected';
+
+  @override
+  String sourceOptionLabel(String title, String subtitle) {
+    return '$title. $subtitle';
+  }
+
+  @override
+  String sourceOptionHint(int current, int total) {
+    return 'Radio button option $current of $total';
+  }
+
+  @override
+  String sourceOptionSelected(String title) {
+    return '$title selected';
+  }
 }

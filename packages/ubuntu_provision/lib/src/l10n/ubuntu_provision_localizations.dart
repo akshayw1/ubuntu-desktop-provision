@@ -339,6 +339,204 @@ abstract class UbuntuProvisionLocalizations {
   /// **'Desktop zoom'**
   String get accessibilityDesktopZoomLabel;
 
+  /// No description provided for @accessibilityOptionsPageInstructions.
+  ///
+  /// In en, this message translates to:
+  /// **'Accessibility options page. Tab to arrows beside each section to expand or collapse them.'**
+  String get accessibilityOptionsPageInstructions;
+
+  /// No description provided for @accessibilityArrowButtonLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Arrow for {section} section'**
+  String accessibilityArrowButtonLabel(String section);
+
+  /// No description provided for @accessibilityArrowButtonHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Press Enter to {action}'**
+  String accessibilityArrowButtonHint(String action);
+
+  /// No description provided for @accessibilityExpandAction.
+  ///
+  /// In en, this message translates to:
+  /// **'expand'**
+  String get accessibilityExpandAction;
+
+  /// No description provided for @accessibilityCollapseAction.
+  ///
+  /// In en, this message translates to:
+  /// **'collapse'**
+  String get accessibilityCollapseAction;
+
+  /// No description provided for @accessibilityOptionStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'{option} option, {status}'**
+  String accessibilityOptionStatus(String option, String status);
+
+  /// No description provided for @accessibilityOptionEnabled.
+  ///
+  /// In en, this message translates to:
+  /// **'enabled'**
+  String get accessibilityOptionEnabled;
+
+  /// No description provided for @accessibilityOptionDisabled.
+  ///
+  /// In en, this message translates to:
+  /// **'disabled'**
+  String get accessibilityOptionDisabled;
+
+  /// No description provided for @accessibilityOptionInstructions.
+  ///
+  /// In en, this message translates to:
+  /// **'{option} option, currently {status}. {description}. Press Space to toggle.'**
+  String accessibilityOptionInstructions(String option, String status, String description);
+
+  /// No description provided for @accessibilityDropdownOpened.
+  ///
+  /// In en, this message translates to:
+  /// **'Dropdown opened. Use arrow keys to navigate'**
+  String get accessibilityDropdownOpened;
+
+  /// No description provided for @accessibilityDropdownSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'Selected {option}'**
+  String accessibilityDropdownSelected(String option);
+
+  /// No description provided for @accessibilityRadioButtonHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Radio button'**
+  String get accessibilityRadioButtonHint;
+
+  /// No description provided for @accessibilitySectionStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'{section} section {status}'**
+  String accessibilitySectionStatus(String section, String status);
+
+  /// No description provided for @accessibilityExpandableSectionHeader.
+  ///
+  /// In en, this message translates to:
+  /// **'Expandable section header'**
+  String get accessibilityExpandableSectionHeader;
+
+  /// No description provided for @accessibilityExpandableHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Press to {action}'**
+  String accessibilityExpandableHint(String action);
+
+  /// No description provided for @accessibilityArrowHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Arrow for {section} section. Press Enter to {action}.'**
+  String accessibilityArrowHint(String section, String action);
+
+  /// No description provided for @accessibilityExpandCollapseArrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Expand/collapse arrow'**
+  String get accessibilityExpandCollapseArrow;
+
+  /// No description provided for @accessibilitySectionOptions.
+  ///
+  /// In en, this message translates to:
+  /// **'{section} options'**
+  String accessibilitySectionOptions(String section);
+
+  /// No description provided for @accessibilityExpandedContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Expanded content'**
+  String get accessibilityExpandedContent;
+
+  /// No description provided for @accessibilityVisionOptions.
+  ///
+  /// In en, this message translates to:
+  /// **'Vision accessibility options'**
+  String get accessibilityVisionOptions;
+
+  /// No description provided for @accessibilityHighContrastDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Increases color contrast for better visibility'**
+  String get accessibilityHighContrastDescription;
+
+  /// No description provided for @accessibilityLargeTextDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Makes text larger and easier to read'**
+  String get accessibilityLargeTextDescription;
+
+  /// No description provided for @accessibilityReduceAnimationDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Reduces or eliminates animation effects'**
+  String get accessibilityReduceAnimationDescription;
+
+  /// No description provided for @accessibilityScreenReaderDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Reads screen content aloud'**
+  String get accessibilityScreenReaderDescription;
+
+  /// No description provided for @accessibilityHearingOptions.
+  ///
+  /// In en, this message translates to:
+  /// **'Hearing accessibility options'**
+  String get accessibilityHearingOptions;
+
+  /// No description provided for @accessibilityVisualAlertsDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Shows visual notifications for audio alerts'**
+  String get accessibilityVisualAlertsDescription;
+
+  /// No description provided for @accessibilityTypingOptions.
+  ///
+  /// In en, this message translates to:
+  /// **'Typing accessibility options'**
+  String get accessibilityTypingOptions;
+
+  /// No description provided for @accessibilityStickKeysDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Allows pressing key combinations one key at a time'**
+  String get accessibilityStickKeysDescription;
+
+  /// No description provided for @accessibilitySlowKeysDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Adds a delay between key press and acceptance'**
+  String get accessibilitySlowKeysDescription;
+
+  /// No description provided for @accessibilityMouseOptions.
+  ///
+  /// In en, this message translates to:
+  /// **'Mouse accessibility options'**
+  String get accessibilityMouseOptions;
+
+  /// No description provided for @accessibilityMouseKeysDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Control the mouse pointer with the keyboard'**
+  String get accessibilityMouseKeysDescription;
+
+  /// No description provided for @accessibilityZoomOptions.
+  ///
+  /// In en, this message translates to:
+  /// **'Screen magnification options'**
+  String get accessibilityZoomOptions;
+
+  /// No description provided for @accessibilityDesktopZoomDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Magnifies portions of the screen'**
+  String get accessibilityDesktopZoomDescription;
+
   /// No description provided for @errorPageTitle.
   ///
   /// In en, this message translates to:
@@ -399,6 +597,126 @@ abstract class UbuntuProvisionLocalizations {
   /// **'Timezone'**
   String get timezoneTimezoneLabel;
 
+  /// No description provided for @timezonePageAccessibilityLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Select your timezone page'**
+  String get timezonePageAccessibilityLabel;
+
+  /// No description provided for @timezonePageHeaderAccessibility.
+  ///
+  /// In en, this message translates to:
+  /// **'Select your timezone. {pageTitle}'**
+  String timezonePageHeaderAccessibility(String pageTitle);
+
+  /// No description provided for @timezonePageInstructions.
+  ///
+  /// In en, this message translates to:
+  /// **'Select your timezone. {pageTitle}. You can search for a city or timezone, or click on the map.'**
+  String timezonePageInstructions(String pageTitle);
+
+  /// No description provided for @timezoneCurrentSelection.
+  ///
+  /// In en, this message translates to:
+  /// **'Currently selected: {location}, {timezone}'**
+  String timezoneCurrentSelection(String location, String timezone);
+
+  /// No description provided for @timezoneLocationFieldLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Location search field'**
+  String get timezoneLocationFieldLabel;
+
+  /// No description provided for @timezoneLocationFieldHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Type to search for a city'**
+  String get timezoneLocationFieldHint;
+
+  /// No description provided for @timezoneTimezoneFieldLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Timezone search field'**
+  String get timezoneTimezoneFieldLabel;
+
+  /// No description provided for @timezoneTimezoneFieldHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Type to search for a timezone'**
+  String get timezoneTimezoneFieldHint;
+
+  /// No description provided for @timezoneMapLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Timezone map. Click on the map to select your location'**
+  String get timezoneMapLabel;
+
+  /// No description provided for @timezoneMapHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Interactive world map for timezone selection'**
+  String get timezoneMapHint;
+
+  /// No description provided for @timezoneSelectedLocation.
+  ///
+  /// In en, this message translates to:
+  /// **'Selected location: {location}'**
+  String timezoneSelectedLocation(String location);
+
+  /// No description provided for @timezoneSelectedTimezone.
+  ///
+  /// In en, this message translates to:
+  /// **'Selected timezone: {timezone}'**
+  String timezoneSelectedTimezone(String timezone);
+
+  /// No description provided for @timezoneSelectedFromMap.
+  ///
+  /// In en, this message translates to:
+  /// **'Selected {location} from map'**
+  String timezoneSelectedFromMap(String location);
+
+  /// No description provided for @timezoneSaving.
+  ///
+  /// In en, this message translates to:
+  /// **'Saving timezone: {location}, {timezone}'**
+  String timezoneSaving(String location, String timezone);
+
+  /// No description provided for @backButtonLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Back button'**
+  String get backButtonLabel;
+
+  /// No description provided for @nextButtonLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Next button'**
+  String get nextButtonLabel;
+
+  /// No description provided for @nextButtonDisabledLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Next button, disabled. Please select a timezone'**
+  String get nextButtonDisabledLabel;
+
+  /// No description provided for @localeLanguageSelectionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Language selection - Use arrow keys to navigate on this list. Press Home to go to the first item, End to go to the last item.'**
+  String get localeLanguageSelectionLabel;
+
+  /// No description provided for @localeLanguageSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'Selected'**
+  String get localeLanguageSelected;
+
+  /// No description provided for @localeLanguageSelectedAnnouncement.
+  ///
+  /// In en, this message translates to:
+  /// **'{languageName} selected'**
+  String localeLanguageSelectedAnnouncement(String languageName);
+
   /// No description provided for @keyboardTitle.
   ///
   /// In en, this message translates to:
@@ -446,6 +764,72 @@ abstract class UbuntuProvisionLocalizations {
   /// In en, this message translates to:
   /// **'Is the following key present on your keyboard?'**
   String get keyboardKeyPresentLabel;
+
+  /// No description provided for @keyboardDetectButtonHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Press to detect keyboard layout'**
+  String get keyboardDetectButtonHint;
+
+  /// No description provided for @keyboardDetectingMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Detecting keyboard layout'**
+  String get keyboardDetectingMessage;
+
+  /// No description provided for @keyboardLayoutSelectedMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Selected layout {layoutName}'**
+  String keyboardLayoutSelectedMessage(String layoutName);
+
+  /// No description provided for @keyboardLayoutListLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Keyboard layout selection list'**
+  String get keyboardLayoutListLabel;
+
+  /// No description provided for @keyboardLayoutItemLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'{layoutName} {selectionStatus}'**
+  String keyboardLayoutItemLabel(String layoutName, String selectionStatus);
+
+  /// No description provided for @keyboardLayoutSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'selected'**
+  String get keyboardLayoutSelected;
+
+  /// No description provided for @keyboardLayoutNotSelected.
+  ///
+  /// In en, this message translates to:
+  /// **''**
+  String get keyboardLayoutNotSelected;
+
+  /// No description provided for @keyboardVariantSectionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Keyboard variant'**
+  String get keyboardVariantSectionLabel;
+
+  /// No description provided for @keyboardVariantDropdownLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Keyboard variant'**
+  String get keyboardVariantDropdownLabel;
+
+  /// No description provided for @keyboardVariantSelectedMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Selected variant {variantName}'**
+  String keyboardVariantSelectedMessage(String variantName);
+
+  /// No description provided for @keyboardTestFieldLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Keyboard test field {hint}'**
+  String keyboardTestFieldLabel(String hint);
 
   /// No description provided for @themePageTitle.
   ///
@@ -866,6 +1250,162 @@ abstract class UbuntuProvisionLocalizations {
   /// In en, this message translates to:
   /// **'Do not connect to the internet'**
   String get networkNoneOption;
+
+  /// No description provided for @networkPageWelcome.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome to network page. {header}. {body}'**
+  String networkPageWelcome(String header, String body);
+
+  /// No description provided for @networkPageAccessibilityLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Network configuration page'**
+  String get networkPageAccessibilityLabel;
+
+  /// No description provided for @networkConnectButtonLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Connect button {status}'**
+  String networkConnectButtonLabel(String status);
+
+  /// No description provided for @networkConnectButtonConnecting.
+  ///
+  /// In en, this message translates to:
+  /// **'connecting'**
+  String get networkConnectButtonConnecting;
+
+  /// No description provided for @networkConnectButtonNotConnecting.
+  ///
+  /// In en, this message translates to:
+  /// **''**
+  String get networkConnectButtonNotConnecting;
+
+  /// No description provided for @networkConnecting.
+  ///
+  /// In en, this message translates to:
+  /// **'Connecting to network'**
+  String get networkConnecting;
+
+  /// No description provided for @networkNextButtonLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Next button {status}'**
+  String networkNextButtonLabel(String status);
+
+  /// No description provided for @networkNextButtonEnabled.
+  ///
+  /// In en, this message translates to:
+  /// **'enabled'**
+  String get networkNextButtonEnabled;
+
+  /// No description provided for @networkNextButtonDisabled.
+  ///
+  /// In en, this message translates to:
+  /// **'disabled'**
+  String get networkNextButtonDisabled;
+
+  /// No description provided for @networkEthernetOptionStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'Ethernet option {status}'**
+  String networkEthernetOptionStatus(String status);
+
+  /// No description provided for @networkOptionSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'selected'**
+  String get networkOptionSelected;
+
+  /// No description provided for @networkOptionNotSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'not selected'**
+  String get networkOptionNotSelected;
+
+  /// No description provided for @networkEthernetOptionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Use wired connection'**
+  String get networkEthernetOptionLabel;
+
+  /// No description provided for @networkRadioButtonHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Radio button'**
+  String get networkRadioButtonHint;
+
+  /// No description provided for @networkEthernetSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'Ethernet selected'**
+  String get networkEthernetSelected;
+
+  /// No description provided for @networkWifiOptionStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'WiFi option {status}'**
+  String networkWifiOptionStatus(String status);
+
+  /// No description provided for @networkWifiOptionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Connect to WiFi network'**
+  String get networkWifiOptionLabel;
+
+  /// No description provided for @networkWifiSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'WiFi selected'**
+  String get networkWifiSelected;
+
+  /// No description provided for @networkWifiListLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'WiFi networks list'**
+  String get networkWifiListLabel;
+
+  /// No description provided for @networkWifiNetworkSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'WiFi network selected'**
+  String get networkWifiNetworkSelected;
+
+  /// No description provided for @networkHiddenWifiOptionStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'Hidden WiFi option {status}'**
+  String networkHiddenWifiOptionStatus(String status);
+
+  /// No description provided for @networkHiddenWifiOptionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Connect to hidden WiFi network'**
+  String get networkHiddenWifiOptionLabel;
+
+  /// No description provided for @networkHiddenWifiSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'Hidden WiFi selected'**
+  String get networkHiddenWifiSelected;
+
+  /// No description provided for @networkNoConnectOptionStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'No connection option {status}'**
+  String networkNoConnectOptionStatus(String status);
+
+  /// No description provided for @networkNoConnectOptionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue without network'**
+  String get networkNoConnectOptionLabel;
+
+  /// No description provided for @networkNoConnectSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue without network selected'**
+  String get networkNoConnectSelected;
 
   /// No description provided for @eulaPageTitle.
   ///

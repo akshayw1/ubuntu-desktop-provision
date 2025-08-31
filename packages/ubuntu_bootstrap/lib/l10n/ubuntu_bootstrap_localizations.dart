@@ -291,6 +291,96 @@ abstract class UbuntuBootstrapLocalizations {
   /// **'For advanced users who have an autoinstall.yaml for consistent and repeatable system setups.'**
   String get autoinstallAutomatedDescription;
 
+  /// No description provided for @autoinstallPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome to installation method page'**
+  String get autoinstallPageTitle;
+
+  /// No description provided for @autoinstallPageInstructions.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your way of installation'**
+  String get autoinstallPageInstructions;
+
+  /// No description provided for @autoinstallPageAccessibilityLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Installation method selection page'**
+  String get autoinstallPageAccessibilityLabel;
+
+  /// No description provided for @autoinstallInteractiveOptionStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'Interactive installation option {status}. {description}'**
+  String autoinstallInteractiveOptionStatus(String status, String description);
+
+  /// No description provided for @autoinstallOptionSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'selected'**
+  String get autoinstallOptionSelected;
+
+  /// No description provided for @autoinstallOptionNotSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'not selected'**
+  String get autoinstallOptionNotSelected;
+
+  /// No description provided for @autoinstallInteractiveSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'Interactive installation selected'**
+  String get autoinstallInteractiveSelected;
+
+  /// No description provided for @autoinstallAutomatedSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'Automated installation selected. Please provide autoinstall configuration URL'**
+  String get autoinstallAutomatedSelected;
+
+  /// No description provided for @autoinstallConfigSectionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Autoinstall configuration section'**
+  String get autoinstallConfigSectionLabel;
+
+  /// No description provided for @autoinstallUrlFieldLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Autoinstall configuration URL field. Enter the URL or file path'**
+  String get autoinstallUrlFieldLabel;
+
+  /// No description provided for @autoinstallUrlLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Autoinstall configuration URL'**
+  String get autoinstallUrlLabel;
+
+  /// No description provided for @autoinstallUrlHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter URL or file path'**
+  String get autoinstallUrlHint;
+
+  /// No description provided for @autoinstallValidateButtonLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Validate button {status}'**
+  String autoinstallValidateButtonLabel(String status);
+
+  /// No description provided for @autoinstallValidating.
+  ///
+  /// In en, this message translates to:
+  /// **'validating'**
+  String get autoinstallValidating;
+
+  /// No description provided for @autoinstallValidatingMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Validating autoinstall configuration'**
+  String get autoinstallValidatingMessage;
+
   /// No description provided for @changeButtonText.
   ///
   /// In en, this message translates to:
@@ -1149,6 +1239,66 @@ abstract class UbuntuBootstrapLocalizations {
   /// **'Review your choices'**
   String get confirmHeader;
 
+  /// No description provided for @confirmPageAccessibilityLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Review your choices page'**
+  String get confirmPageAccessibilityLabel;
+
+  /// No description provided for @confirmPageWelcome.
+  ///
+  /// In en, this message translates to:
+  /// **'Review your choices. {header}. Please review all your installation settings before proceeding.'**
+  String confirmPageWelcome(String header);
+
+  /// No description provided for @confirmStartingInstallation.
+  ///
+  /// In en, this message translates to:
+  /// **'Starting installation. Please wait.'**
+  String get confirmStartingInstallation;
+
+  /// No description provided for @confirmReviewChoices.
+  ///
+  /// In en, this message translates to:
+  /// **'Review your choices'**
+  String get confirmReviewChoices;
+
+  /// No description provided for @confirmSummaryLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Installation summary'**
+  String get confirmSummaryLabel;
+
+  /// No description provided for @confirmAutoinstallConfig.
+  ///
+  /// In en, this message translates to:
+  /// **'Autoinstall configuration'**
+  String get confirmAutoinstallConfig;
+
+  /// No description provided for @confirmPartitionChangesLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Partition changes list'**
+  String get confirmPartitionChangesLabel;
+
+  /// No description provided for @confirmInstallButtonLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Install now button. This will start the installation'**
+  String get confirmInstallButtonLabel;
+
+  /// No description provided for @confirmProprietarySoftwareNone.
+  ///
+  /// In en, this message translates to:
+  /// **'None'**
+  String get confirmProprietarySoftwareNone;
+
+  /// No description provided for @backButtonLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Back button'**
+  String get backButtonLabel;
+
   /// No description provided for @confirmDiskEncryptionLVM.
   ///
   /// In en, this message translates to:
@@ -1838,6 +1988,84 @@ abstract class UbuntuBootstrapLocalizations {
   /// In en, this message translates to:
   /// **'Validate'**
   String get validate;
+
+  /// No description provided for @sourcePageAccessibilityLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Software selection page'**
+  String get sourcePageAccessibilityLabel;
+
+  /// No description provided for @sourcePageWelcome.
+  ///
+  /// In en, this message translates to:
+  /// **'What apps would you like to install to start with? {description}'**
+  String sourcePageWelcome(String description);
+
+  /// No description provided for @sourceBatteryWarning.
+  ///
+  /// In en, this message translates to:
+  /// **'Warning: You are running on battery power. Connecting to a power source is recommended'**
+  String get sourceBatteryWarning;
+
+  /// No description provided for @sourceInstallationTypeMinimal.
+  ///
+  /// In en, this message translates to:
+  /// **'minimal'**
+  String get sourceInstallationTypeMinimal;
+
+  /// No description provided for @sourceInstallationTypeFull.
+  ///
+  /// In en, this message translates to:
+  /// **'full'**
+  String get sourceInstallationTypeFull;
+
+  /// No description provided for @sourceInstallationProceedingWith.
+  ///
+  /// In en, this message translates to:
+  /// **'Proceeding with {type} installation'**
+  String sourceInstallationProceedingWith(String type);
+
+  /// No description provided for @sourceOptionsLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Installation options. Use arrow keys to navigate between options'**
+  String get sourceOptionsLabel;
+
+  /// No description provided for @sourceOptionDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'{title}. {subtitle}. {status}. Option {current} of {total}'**
+  String sourceOptionDetails(String title, String subtitle, String status, int current, int total);
+
+  /// No description provided for @sourceOptionCurrentlySelected.
+  ///
+  /// In en, this message translates to:
+  /// **'Currently selected'**
+  String get sourceOptionCurrentlySelected;
+
+  /// No description provided for @sourceOptionNotSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'Not selected'**
+  String get sourceOptionNotSelected;
+
+  /// No description provided for @sourceOptionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'{title}. {subtitle}'**
+  String sourceOptionLabel(String title, String subtitle);
+
+  /// No description provided for @sourceOptionHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Radio button option {current} of {total}'**
+  String sourceOptionHint(int current, int total);
+
+  /// No description provided for @sourceOptionSelected.
+  ///
+  /// In en, this message translates to:
+  /// **'{title} selected'**
+  String sourceOptionSelected(String title);
 }
 
 class _UbuntuBootstrapLocalizationsDelegate extends LocalizationsDelegate<UbuntuBootstrapLocalizations> {
